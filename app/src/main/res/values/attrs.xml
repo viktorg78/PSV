@@ -1,0 +1,309 @@
+<resources>
+   <declare-styleable name="GraphPSV">
+        <attr name="fonColor" format="color"/>
+        <attr name="numberOfDays" format="integer"/>
+        <attr name="lineColor" format="color"/>
+        <attr name="graphColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="float"/>
+        <attr name="startDays" format="integer"/>
+        <attr name="numberOfPFM" format="integer"/>
+        <attr name="startPFM" format="integer"/>
+        <attr name="intervalPFM" format="integer"/>
+<!--        есть или нет цветной график-->
+        <attr name="colorGraph" format="enum">
+            <enum name="yes" value="1"/>
+            <enum name="no" value="0"/>
+        </attr>
+<!-- Цветные линии -->
+       <attr name="startGreenLine" format="integer"/>
+       <attr name="finishGreenLine" format="integer"/>
+       <attr name="startYellowLine" format="integer"/>
+       <attr name="finishYellowLine" format="integer"/>
+       <attr name="startRedLine" format="integer"/>
+       <attr name="finishRedLine" format="integer"/>
+<!--       координаты точек x1d день 1xh час y1 показания-->
+       <attr name="x1d" format="integer"/>
+       <attr name="x1h" format="integer"/>
+       <attr name="y1" format="integer"/>
+
+       <attr name="x2d" format="integer"/>
+       <attr name="x2h" format="integer"/>
+       <attr name="y2" format="integer"/>
+
+       <attr name="x3d" format="integer"/>
+       <attr name="x3h" format="integer"/>
+       <attr name="y3" format="integer"/>
+
+       <attr name="x4d" format="integer"/>
+       <attr name="x4h" format="integer"/>
+       <attr name="y4" format="integer"/>
+
+       <attr name="x5d" format="integer"/>
+       <attr name="x5h" format="integer"/>
+       <attr name="y5" format="integer"/>
+
+       <attr name="x6d" format="integer"/>
+       <attr name="x6h" format="integer"/>
+       <attr name="y6" format="integer"/>
+
+       <attr name="x7d" format="integer"/>
+       <attr name="x7h" format="integer"/>
+       <attr name="y7" format="integer"/>
+
+       <attr name="x8d" format="integer"/>
+       <attr name="x8h" format="integer"/>
+       <attr name="y8" format="integer"/>
+
+       <attr name="x9d" format="integer"/>
+       <attr name="x9h" format="integer"/>
+       <attr name="y9" format="integer"/>
+
+       <attr name="x10d" format="integer"/>
+       <attr name="x10h" format="integer"/>
+       <attr name="y10" format="integer"/>
+
+       <attr name="x11d" format="integer"/>
+       <attr name="x11h" format="integer"/>
+       <attr name="y11" format="integer"/>
+
+       <attr name="x12d" format="integer"/>
+       <attr name="x12h" format="integer"/>
+       <attr name="y12" format="integer"/>
+
+       <attr name="x13d" format="integer"/>
+       <attr name="x13h" format="integer"/>
+       <attr name="y13" format="integer"/>
+
+       <attr name="x14d" format="integer"/>
+       <attr name="x14h" format="integer"/>
+       <attr name="y14" format="integer"/>
+
+       <attr name="x15d" format="integer"/>
+       <attr name="x15h" format="integer"/>
+       <attr name="y15" format="integer"/>
+
+       <attr name="x16d" format="integer"/>
+       <attr name="x16h" format="integer"/>
+       <attr name="y16" format="integer"/>
+
+       <attr name="x17d" format="integer"/>
+       <attr name="x17h" format="integer"/>
+       <attr name="y17" format="integer"/>
+
+       <attr name="x18d" format="integer"/>
+       <attr name="x18h" format="integer"/>
+       <attr name="y18" format="integer"/>
+
+       <attr name="x19d" format="integer"/>
+       <attr name="x19h" format="integer"/>
+       <attr name="y19" format="integer"/>
+
+       <attr name="x20d" format="integer"/>
+       <attr name="x20h" format="integer"/>
+       <attr name="y20" format="integer"/>
+
+       <attr name="x21d" format="integer"/>
+       <attr name="x21h" format="integer"/>
+       <attr name="y21" format="integer"/>
+
+       <attr name="x22d" format="integer"/>
+       <attr name="x22h" format="integer"/>
+       <attr name="y22" format="integer"/>
+
+       <attr name="x23d" format="integer"/>
+       <attr name="x23h" format="integer"/>
+       <attr name="y23" format="integer"/>
+
+       <attr name="x24d" format="integer"/>
+       <attr name="x24h" format="integer"/>
+       <attr name="y24" format="integer"/>
+
+       <attr name="x25d" format="integer"/>
+       <attr name="x25h" format="integer"/>
+       <attr name="y25" format="integer"/>
+
+       <attr name="x26d" format="integer"/>
+       <attr name="x26h" format="integer"/>
+       <attr name="y26" format="integer"/>
+
+       <attr name="x27d" format="integer"/>
+       <attr name="x27h" format="integer"/>
+       <attr name="y27" format="integer"/>
+
+       <attr name="x28d" format="integer"/>
+       <attr name="x28h" format="integer"/>
+       <attr name="y28" format="integer"/>
+
+       <attr name="x29d" format="integer"/>
+       <attr name="x29h" format="integer"/>
+       <attr name="y29" format="integer"/>
+
+       <attr name="x30d" format="integer"/>
+       <attr name="x30h" format="integer"/>
+       <attr name="y30" format="integer"/>
+
+       <attr name="x31d" format="integer"/>
+       <attr name="x31h" format="integer"/>
+       <attr name="y31" format="integer"/>
+
+       <attr name="x32d" format="integer"/>
+       <attr name="x32h" format="integer"/>
+       <attr name="y32" format="integer"/>
+
+       <attr name="x33d" format="integer"/>
+       <attr name="x33h" format="integer"/>
+       <attr name="y33" format="integer"/>
+
+       <attr name="x34d" format="integer"/>
+       <attr name="x34h" format="integer"/>
+       <attr name="y34" format="integer"/>
+
+       <attr name="x35d" format="integer"/>
+       <attr name="x35h" format="integer"/>
+       <attr name="y35" format="integer"/>
+
+       <attr name="x36d" format="integer"/>
+       <attr name="x36h" format="integer"/>
+       <attr name="y36" format="integer"/>
+
+       <attr name="x37d" format="integer"/>
+       <attr name="x37h" format="integer"/>
+       <attr name="y37" format="integer"/>
+
+       <attr name="x38d" format="integer"/>
+       <attr name="x38h" format="integer"/>
+       <attr name="y38" format="integer"/>
+
+       <attr name="x39d" format="integer"/>
+       <attr name="x39h" format="integer"/>
+       <attr name="y39" format="integer"/>
+
+       <attr name="x40d" format="integer"/>
+       <attr name="x40h" format="integer"/>
+       <attr name="y40" format="integer"/>
+
+       <attr name="x41d" format="integer"/>
+       <attr name="x41h" format="integer"/>
+       <attr name="y41" format="integer"/>
+
+       <attr name="x42d" format="integer"/>
+       <attr name="x42h" format="integer"/>
+       <attr name="y42" format="integer"/>
+
+       <attr name="x43d" format="integer"/>
+       <attr name="x43h" format="integer"/>
+       <attr name="y43" format="integer"/>
+
+       <attr name="x44d" format="integer"/>
+       <attr name="x44h" format="integer"/>
+       <attr name="y44" format="integer"/>
+
+       <attr name="x45d" format="integer"/>
+       <attr name="x45h" format="integer"/>
+       <attr name="y45" format="integer"/>
+
+       <attr name="x46d" format="integer"/>
+       <attr name="x46h" format="integer"/>
+       <attr name="y46" format="integer"/>
+
+       <attr name="x47d" format="integer"/>
+       <attr name="x47h" format="integer"/>
+       <attr name="y47" format="integer"/>
+
+       <attr name="x48d" format="integer"/>
+       <attr name="x48h" format="integer"/>
+       <attr name="y48" format="integer"/>
+
+       <attr name="x49d" format="integer"/>
+       <attr name="x49h" format="integer"/>
+       <attr name="y49" format="integer"/>
+
+       <attr name="x50d" format="integer"/>
+       <attr name="x50h" format="integer"/>
+       <attr name="y50" format="integer"/>
+
+       <attr name="x51d" format="integer"/>
+       <attr name="x51h" format="integer"/>
+       <attr name="y51" format="integer"/>
+
+       <attr name="x52d" format="integer"/>
+       <attr name="x52h" format="integer"/>
+       <attr name="y52" format="integer"/>
+
+       <attr name="x53d" format="integer"/>
+       <attr name="x53h" format="integer"/>
+       <attr name="y53" format="integer"/>
+
+       <attr name="x54d" format="integer"/>
+       <attr name="x54h" format="integer"/>
+       <attr name="y54" format="integer"/>
+
+       <attr name="x55d" format="integer"/>
+       <attr name="x55h" format="integer"/>
+       <attr name="y55" format="integer"/>
+
+       <attr name="x56d" format="integer"/>
+       <attr name="x56h" format="integer"/>
+       <attr name="y56" format="integer"/>
+
+       <attr name="x57d" format="integer"/>
+       <attr name="x57h" format="integer"/>
+       <attr name="y57" format="integer"/>
+
+       <attr name="x58d" format="integer"/>
+       <attr name="x58h" format="integer"/>
+       <attr name="y58" format="integer"/>
+
+       <attr name="x59d" format="integer"/>
+       <attr name="x59h" format="integer"/>
+       <attr name="y59" format="integer"/>
+
+       <attr name="x60d" format="integer"/>
+       <attr name="x60h" format="integer"/>
+       <attr name="y60" format="integer"/>
+
+       <attr name="x61d" format="integer"/>
+       <attr name="x61h" format="integer"/>
+       <attr name="y61" format="integer"/>
+
+       <attr name="x62d" format="integer"/>
+       <attr name="x62h" format="integer"/>
+       <attr name="y62" format="integer"/>
+
+       <attr name="x63d" format="integer"/>
+       <attr name="x63h" format="integer"/>
+       <attr name="y63" format="integer"/>
+
+       <attr name="x64d" format="integer"/>
+       <attr name="x64h" format="integer"/>
+       <attr name="y64" format="integer"/>
+
+       <attr name="x65d" format="integer"/>
+       <attr name="x65h" format="integer"/>
+       <attr name="y65" format="integer"/>
+
+       <attr name="x66d" format="integer"/>
+       <attr name="x66h" format="integer"/>
+       <attr name="y66" format="integer"/>
+
+       <attr name="x67d" format="integer"/>
+       <attr name="x67h" format="integer"/>
+       <attr name="y67" format="integer"/>
+
+       <attr name="x68d" format="integer"/>
+       <attr name="x68h" format="integer"/>
+       <attr name="y68" format="integer"/>
+
+       <attr name="x69d" format="integer"/>
+       <attr name="x69h" format="integer"/>
+       <attr name="y69" format="integer"/>
+
+       <attr name="x70d" format="integer"/>
+       <attr name="x70h" format="integer"/>
+       <attr name="y70" format="integer"/>
+
+<!--       колличество точек-->
+       <attr name="sizePoint" format="integer"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/journalItem"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:orderInCategory="100"
+        android:title="@string/journal" />
+    <item android:id="@+id/settingsItem"
+        android:title="@string/title_activity_settings"
+        android:orderInCategory="100" />
+</menu>

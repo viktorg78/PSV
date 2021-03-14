@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/settings_personal_data">
+        <EditTextPreference
+            app:key="settings_surname"
+            app:title="@string/settings_surname"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="settings_name"
+            app:title="@string/settings_name"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:key="settings_patronymic"
+            app:title="@string/settings_patronymic"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/settings_graph">
+        <Preference
+            app:key="settings_top_of_the_green_line"
+            app:title="250"
+            app:summary="@string/settings_top_of_the_green_line"/>
+        <Preference
+            app:key="settings_top_of_the_yellow_line"
+            app:title="200"
+            app:summary = "@string/settings_top_of_the_yellow_line"/>
+        <Preference
+            app:key="settings_top_of_the_red_line"
+            app:title="150"
+            app:summary="@string/settings_top_of_the_red_line"/>
+        <Preference
+            app:key="settings_lower_limit_of_the_red"
+            app:title="100"
+            app:summary="@string/settings_lower_limit_of_the_red"/>
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="settings_automatic_calculation"
+            app:title="@string/settings_automatic_calculation" />
+    </PreferenceCategory>
+</PreferenceScreen>
